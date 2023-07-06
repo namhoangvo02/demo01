@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/* CSS Document */
+.container {
+  width: 100%;
+  height: 1500px;
+  background-color: white;
+}
+.header {
+  width: 100%;
+  height: 60px;
+  background-color: #AEE5F3;
+  margin: 0 10% 0 0;
+}
+.logo {
+  width: 30%;
+  height: 100%;
+  background-color: #AEE5F3;
+  float: left;
+}
+div.logo {
+  display: flex;
+  justify-content: center;
+}
+.menu {
+  width: 70%;
+  height: 100%;
+  background-color: #AEE5F3;
+  font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+  float: right;
+}
+#sans-serif {
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  float: right;
+  padding: 20px 20px;
+}
+ul li a {
+  text-decoration: none;
+}
+.heroimage {
+  width: 100%;
+  height: 550px;
+  background-color: magenta;
+}
+.features {
+  width: 100%;
+  height: 170px;
+  background-color: white;
+}
+.square {
+  width: 30%;
+  height: 170px;
+  margin: 0% 1.5% 0 1.5%;
+  float: left;
+  position: relative;
+  background-color: white;
+}
+.item {
+  width: 100%;
+  height: 170px;
+  overflow: hidden;
+}
+.primarycontent {
+  width: 100%;
+  height: 560px;
+  background-color: #AEE5F3;
+}
+.content {
+  width: 700px;
+  height: 150px;
+  margin: 2% 50% 0 20%;
+  float: left;
+  position: relative;
+  background-color: white;
+}
+.secondaricontent {
+  width: 100%;
+  height: 180px;
+  background-color: white;
+}
+.footer {
+  padding: 15px 0;
+  background-color: #AEE5F3;
+  height: 100px;
+}
+.wrapper {
+  margin: 0 auto;
+  padding: 0 1px;
+  width: 880px;
+}
+#footer-info {
+  width: 380px;
+  float: left;
+  margin-top: 10px;
+}
